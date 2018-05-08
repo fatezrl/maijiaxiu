@@ -45,6 +45,13 @@ document.getElementById("input").value=document.getElementById("field8").value;
 		bacl
 		font-size: 30px;
 		color:black;
+		moz-user-select: -moz-none;
+		-moz-user-select: none;
+		-o-user-select:none;
+		-khtml-user-select:none;
+	-	webkit-user-select:none;
+		-ms-user-select:none;
+		user-select:none;
 	
 	}
 	a {
@@ -226,19 +233,19 @@ $.backstretch([
 		'http://api.asilu.com/cdn/img/bg/445.jpg',
 		'http://api.asilu.com/cdn/img/bg/446.jpg',
 		'http://api.asilu.com/cdn/img/bg/447.jpg',
-		'http://api.asilu.com/cdn/img/bg/448.jpg',
+		'http://api.asilu.com/cdn/img/bg/401.jpg',
 		'http://api.asilu.com/cdn/img/bg/460.jpg',
-		'http://api.asilu.com/cdn/img/bg/461.jpg',
-		'http://api.asilu.com/cdn/img/bg/462.jpg',
-		'http://api.asilu.com/cdn/img/bg/463.jpg',
+		'http://api.asilu.com/cdn/img/bg/404.jpg',
+		'http://api.asilu.com/cdn/img/bg/403.jpg',
+		'http://api.asilu.com/cdn/img/bg/405.jpg',
 		'http://api.asilu.com/cdn/img/bg/464.jpg',
 		'http://api.asilu.com/cdn/img/bg/465.jpg',
 		'http://api.asilu.com/cdn/img/bg/466.jpg',
 		'http://api.asilu.com/cdn/img/bg/499.jpg',
-		'http://api.asilu.com/cdn/img/bg/123.jpg',
+		'http://api.asilu.com/cdn/img/bg/407.jpg',
 		'http://api.asilu.com/cdn/img/bg/234.jpg',
 		'http://api.asilu.com/cdn/img/bg/231.jpg',
-		'http://api.asilu.com/cdn/img/bg/422.jpg',
+		'http://api.asilu.com/cdn/img/bg/106.jpg',
 		'http://api.asilu.com/cdn/img/bg/400.jpg',
 		], {
 		fade : 1000, // 动画时长
@@ -248,7 +255,7 @@ $.backstretch([
 <div id="wrapper">
 	<div id="header">
 		<h1>
-		 hpu内网代理系统</a>
+		 HPU内网代理系统</a>
 		</h1>
 	</div>
 	
@@ -270,65 +277,65 @@ $.backstretch([
 	"本站搭建是为了方便本校学生查询成绩"
 	</br>
 	万方教务系统网址:
-	<input type="hidden" id="field1"  class= "input" value="202.196.225.57"><button onclick="c1()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field1"  class= "input" value="202.196.225.57"><button class="button"  onclick="c1()">点击自动填写该网址</button><br><hr/>
 	万方科技学院焦作校区主页：
-	<input type="hidden" id="field2" class= "input" value="wfstc.hpu.edu.cn"><button onclick="c2()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field2" class= "input" value="wfstc.hpu.edu.cn"><button class="button" onclick="c2()">点击自动填写该网址</button><br><hr/>
 	HPU教务管理系统：	
-	<input type="hidden" id="field3" class= "input" value="http://jw.hpu.edu.cn"><button onclick="c3()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field3" class= "input" value="http://jw.hpu.edu.cn"><button class="button"  onclick="c3()">点击自动填写该网址</button><br><hr/>
 	HPU最新公告栏：	
-	<input type="hidden" id="field4" class= "input"  value="218.196.240.155/swfweb/hpugg.aspx"><button onclick="c4()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field4" class= "input"  value="218.196.240.155/swfweb/hpugg.aspx"><button class="button"  onclick="c4()">点击自动填写该网址</button><br><hr/>
 
 	HPU本科教务管理：	
-	<input type="hidden" id="field5" class= "input" value="http://218.196.240.25"><button onclick="c5()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field5" class= "input" value="http://218.196.240.25"><button iclass="button" onclick="c5()">点击自动填写该网址</button><br><hr/>
 
 		HPU学生评教系统：	
-	<input type="hidden" id="field6" class= "input" value="218.196.240.112"><button onclick="c6()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field6" class= "input" value="218.196.240.112"><button iclass="button"  onclick="c6()">点击自动填写该网址</button><br><hr/>
 
 		中国知网：	
-	<input type="hidden" id="field7"  class= "input"value="http://www.cnki.net/"><button onclick="c7()">点击自动填写该网址</button><br><hr/>
+	<input type="hidden" id="field7"  class= "input"value="http://www.cnki.net/"><button class="button"  onclick="c7()">点击自动填写该网址</button><br><hr/>
 	本代理还允许访问中国知网和万方数据库，用来下载论文。<br>	
 	本站仅提供加速访问、提高安全性以及学习交流使用。禁止用其浏览任何违法内容。一经发现，直接封禁ip段。<br>
 	服务器如若显示连接失败，一般十分钟内会自动修复该问题。<br>
-
+				<p align="center"><a>已有</a>
+			<script src="http://count.knowsky.com/count1/count.asp?id=177184&sx=1&ys=32" language="JavaScript" charset="gb2312"></script>
+<a>人次访问</a>
+			</p>
 	Powered by <a >Glype</a>&reg; 
 	<!--[version]-->.
 	</div>
 </div>	
-<script type="text/javascript"> 
-/* 鼠标特效 */ 
-var a_idx = 0; 
-jQuery(document).ready(function($) { 
-    $("body").click(function(e) { 
-        var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善","石岸英"); 
-        var $i = $("<span/>").text(a[a_idx]); 
-        a_idx = (a_idx + 1) % a.length; 
-        var x = e.pageX, 
-        y = e.pageY; 
-        $i.css({ 
-            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999, 
-            "top": y - 20, 
-            "left": x, 
-            "position": "absolute", 
-            "font-weight": "bold", 
-            "color": "LightPink " 
-        }); 
-        $("body").append($i); 
-        $i.animate({ 
-            "top": y - 180, 
-            "opacity": 0 
-        }, 
-        1500, 
-        function() { 
-            $i.remove(); 
-        }); 
-    }); 
-}); 
+<script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "俺爱国", "俺敬业", "俺诚信", "俺友善","666","涂山雅雅");
+        var $i = $("<span />").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "#FF00FF"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
 </body>
 <footer>
-			<p align="center"><a>已有</a>
-			
-<script src="http://count.knowsky.com/count1/count.asp?id=177184&sx=1&ys=32" language="JavaScript" charset="gb2312"></script>
-<a>人次访问</a>
-			</p></footer>
+</footer>
 
 </html>
